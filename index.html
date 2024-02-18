@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tintin Paribahan</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="min-h-screen">
+    <header class="mx-20 font-raleway">
+        <!-- navbar section -->
+        <div class="flex justify-evenly">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li>
+                                About
+                            </li>
+                            <li>Destination</li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost font-bold text-2xl">S-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal text-lg px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <summary>About</summary>
+                        </li>
+                        <li><a>Destination</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn text-lg font-bold border-[#1DD100] text-[#1DD100]">Bus <span><img src="images/bus-icon.png"
+                                alt=""></span></a>
+                </div>
+            </div>
+        </div>
+        <!-- banner section -->
+        <div class="mb-16">
+            <div class="hero min-h-screen rounded-3xl" style="background-image: url(images/banner.png); ">
+                <div class="hero-overlay bg-opacity-5 bg-center"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-6xl font-extrabold">Travel with <br><span class="text-[#1DD100]">S
+                                Paribahan</span></h1>
+                        <p class="mb-5 font-medium text-lg">Welcome to S Paribahan, go to your dream destination and make us your travel
+                            partner</p>
+                        <button class="btn text-lg font-bold border-[#1DD100] text-black bg-[#1DD100]">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- best offers -->
+        <div class="mt-32">
+            <div class="mb-6 text-center">
+                <p class="text-4xl font-bold">Best Offers For You</p>
+            </div>
+            <!-- coupons -->
+            <div class="flex justify-center gap-10">
+                <div class="divide-x divide-dotted divide-white rounded-lg flex justify-around w-96 p-8 bg-base-100 shadow-xl bg-[#FFBF0F]">
+                    <div class="pr-4 font-inter ">
+                        <h2 class="text-2xl font-extrabold">15% OFF</h2>
+                        <p class="font-medium">on your next purchase</p>
+                        <p class="font-light">use by January 2024</p>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="p-4 flex flex-col text-center pl-4 font-raleway">
+                        <h2 class="font-bold text-xl">NEW15</h2>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+                <div class="divide-x divide-dotted divide-white rounded-lg flex justify-around w-96 p-8 bg-base-100 shadow-xl bg-[#F78C9C]">
+                    <div class="font-inter pr-4">
+                        <h2 class="text-2xl font-extrabold">20% OFF</h2>
+                        <p class="font-medium">on your next purchase</p>
+                        <p class="font-light">use by January 2024</p>
+                    </div>
+                    <div class="pl-4 pt-4 flex flex-col text-center font-raleway">
+                        <h2 class="font-bold text-xl">Couple 20</h2>
+                        <p>Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+            <!-- best offers - button -->
+            <div class="text-center mt-20">
+                <button class="btn border-[#1DD100] font-bold text-[#1DD100]">See All Offers</button>
+            </div>
+        </div>
+    </header>
+    <!-- page that will vanish after completion of process -->
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
     
 </body>
 </html>
