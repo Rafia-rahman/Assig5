@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,12 @@
 </head>
 <body class="min-h-screen">
     <header class="mx-20 font-raleway">
-        <!-- navbar section -->
         <div class="flex justify-evenly">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 " fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
@@ -31,7 +30,7 @@
 
                         </ul>
                     </div>
-                    <a class="btn btn-ghost font-bold text-2xl">S-Ticket</a>
+                    <a class="btn btn-ghost text-2xl font-bold">S-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal text-lg px-1">
@@ -44,7 +43,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn text-lg font-bold border-[#1DD100] text-[#1DD100]">Bus <span><img src="images/bus-icon.png"
+                    <a class="btn text-lg font-bold  border-[#1DD100] text-[#1DD100]">Bus <span><img src="images/bus-icon.png"
                                 alt=""></span></a>
                 </div>
             </div>
@@ -55,21 +54,18 @@
                 <div class="hero-overlay bg-opacity-5 bg-center"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-6xl font-extrabold">Travel with <br><span class="text-[#1DD100]">S
+                        <h1 class="mb-5 text-6xl font-extrabold">End-to-End Travel with <br><span class="text-[#1DD100]">Tintin
                                 Paribahan</span></h1>
-                        <p class="mb-5 font-medium text-lg">Welcome to S Paribahan, go to your dream destination and make us your travel
-                            partner</p>
-                        <button class="btn text-lg font-bold border-[#1DD100] text-black bg-[#1DD100]">Buy Tickets</button>
+                        <p class="mb-5 font-medium text-lg">Looking for best the Travel?Here we are.</p>
+                        <a href="#home-page" class="btn text-lg font-bold border-[#1DD100] text-black bg-[#1DD100]">Buy Tickets</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- best offers -->
         <div class="mt-32">
             <div class="mb-6 text-center">
                 <p class="text-4xl font-bold">Best Offers For You</p>
             </div>
-            <!-- coupons -->
             <div class="flex justify-center gap-10">
                 <div class="divide-x divide-dotted divide-white rounded-lg flex justify-around w-96 p-8 bg-base-100 shadow-xl bg-[#FFBF0F]">
                     <div class="pr-4 font-inter ">
@@ -102,12 +98,11 @@
         </div>
     </header>
     <!-- page that will vanish after completion of process -->
-    <main class="font-raleway mb-11 pb-5 mt-24 min-h-screen main-border bg-[#F7F8F8]">
+    <main id="home-page" class="font-raleway mb-11 pb-5 mt-24 min-h-screen main-border bg-[#F7F8F8]">
         <!-- bus info -->
         <div class="text-center my-11">
-            <h1 class="font-extrabold pt-16 pb-8 text-5xl">S. Paribahan</h1>
-            <p class="font-semibold text-lg pb-7">We offer top quality coach services from Dhaka to Sylhet and to many
-                more destination...</p>
+            <h1 class="font-extrabold pt-16 pb-8 text-5xl">Tintin Paribahan</h1>
+            <p class="font-semibold text-lg pb-7">Tintin paribahan provides you your most memorable journey ever.Don't miss it.</p>
         </div>
         <!-- main section for seat selection and counting -->
         <section class="flex divide-x divide-dotted divide-[#1DD100] font-inter mt-4 justify-center mx-8 body-border bg-white ">
@@ -116,7 +111,7 @@
                     <div class="flex gap-1">
                         <img src="images/bus-logo.png" alt="">
                         <div>
-                            <h1 class="text-3xl font-extrabold">Greenline Paribahan</h1>
+                            <h1 class="text-3xl font-extrabold">Tintin Paribahan</h1>
                             <p>Coach-009-WEB | AC Business</p>
                         </div>
                     </div>
@@ -175,54 +170,54 @@
                     <button class="bg-slate-300 w-28 btn"><img  src="images/wheel.svg" alt=""></button>
                 </div>
                 <div class="flex font-inter justify-stretch px-3 py-3 gap-8">
-                    <div class="grid grid-cols-2 gap-3">
-                        <p class="seat-name ">A <button id="A1" class="btn seat w-28">A1</button></p>
-                        <button id="A2" class="btn seat w-28">A2</button>
-                        <p class="seat-name">B <button id="B1" class="btn seat w-28">B1</button></p>
-                        <button id="B2" class="btn seat w-28">B2</button>
-                        <p class="seat-name">C <button id="C1" class="btn seat w-28">C1</button></p>
-                        <button id="C2" class="btn seat w-28">C2</button>
-                        <p class="seat-name">D <button id="D1" class="btn seat w-28">D1</button></p>
-                        <button id="D2" class="btn seat w-28">D2</button>
-                        <p class="seat-name">E <button id="E1" class="btn seat w-28">E1</button></p>
-                        <button id="E2" class="btn seat w-28">E2</button>
-                        <p class="seat-name">F <button id="F1" class="btn seat w-28">F1</button></p>
-                        <button id="F2" class="btn seat w-28">F2</button>
-                        <p class="seat-name">G <button id="G1" class="btn seat w-28">G1</button></p>
-                        <button id="G2" class="btn seat w-28">G2</button>
-                        <p class="seat-name">H <button id="H1" class="btn seat w-28">H1</button></p>
-                        <button id="H2" class="btn seat w-28">H2</button>
-                        <p class="seat-name">I <button id="I1" class="btn seat w-28">I1</button></p>
-                        <button id="I2" class="btn w-28 seat">I2</button>
-                        <p class="seat-name">J <button id="J1" class="btn seat w-28">J1</button></p>
-                        <button id="J2" class="btn seat w-28">J2</button>
+                    <div id="seat-container" class="grid grid-cols-2 gap-3">
+                        <button class="btn seat w-28"><p>A1</p></button>
+                        <button class="btn seat w-28"><p>A2</p></button>
+                        <button class="btn seat w-28"><p>B1</p></button>
+                        <button class="btn seat w-28"><p>B2</p></button>
+                        <button class="btn seat w-28"><p>C1</p></button>
+                        <button class="btn seat w-28"><p>C2</p></button>
+                        <button class="btn seat w-28"><p>D1</p></button>
+                        <button class="btn seat w-28"><p>D2</p></button>
+                        <button class="btn seat w-28"><p>E1</p></button>
+                        <button class="btn seat w-28"><p>E2</p></button>
+                        <button class="btn seat w-28"><p>F1</p></button>
+                        <button class="btn seat w-28"><p>F2</p></button>
+                        <button class="btn seat w-28"><p>G1</p></button>
+                        <button class="btn seat w-28"><p>G2</p></button>
+                        <button class="btn seat w-28"><p>H1</p></button>
+                        <button class="btn seat w-28"><p>H2</p></button>
+                        <button class="btn seat w-28"><p>I1</p></button>
+                        <button class="btn seat w-28"><p>I2</p></button>
+                        <button class="btn seat w-28"><p>J1</p></button>
+                        <button class="btn seat w-28"><p>J2</p></button>
+                    
                     </div>
                     <div class="grid grid-cols-2 gap-3 ">
-                        <button id="A3" class="btn w-28 seat">A3</button>
-                        <button id="A4" class="btn w-28 seat">A4</button>
-                        <button id="B3" class="btn seat w-28">B3</button>
-                        <button id="B4" class="btn seat w-28">B4</button>
-                        <button id="C3" class="btn seat w-28">C3</button>
-                        <button id="C4" class="btn seat w-28">C4</button>
-                        <button id="D3" class="btn seat w-28">D3</button>
-                        <button id="D4" class="btn seat w-28">D4</button>
-                        <button id="E3" class="btn seat w-28">E3</button>
-                        <button id="E4" class="btn seat w-28">E4</button>
-                        <button id="F3" class="btn seat w-28">F3</button>
-                        <button id="F4" class="btn seat w-28">F4</button>
-                        <button id="G3" class="btn seat w-28">G3</button>
-                        <button id="G4" class="btn seat w-28">G4</button>
-                        <button id="H3" class="btn seat w-28">H3</button>
-                        <button id="H4" class="btn seat w-28">H4</button>
-                        <button id="I3" class="btn seat w-28">I3</button>
-                        <button id="I4" class="btn seat w-28">I4</button>
-                        <button id="J3" class="btn seat w-28">J3</button>
-                        <button id="J4" class="btn seat w-28">J4</button>
+                        <button class="btn seat w-28"><p>A3</p></button>
+                        <button class="btn seat w-28"><p>A4</p></button>
+                        <button class="btn seat w-28"><p>B3</p></button>
+                        <button class="btn seat w-28"><p>B4</p></button>
+                        <button class="btn seat w-28"><p>C3</p></button>
+                        <button class="btn seat w-28"><p>C4</p></button>
+                        <button class="btn seat w-28"><p>D3</p></button>
+                        <button class="btn seat w-28"><p>D4</p></button>
+                        <button class="btn seat w-28"><p>E3</p></button>
+                        <button class="btn seat w-28"><p>E4</p></button>
+                        <button class="btn seat w-28"><p>F3</p></button>
+                        <button class="btn seat w-28"><p>F4</p></button>
+                        <button class="btn seat w-28"><p>G3</p></button>
+                        <button class="btn seat w-28"><p>G3</p></button>
+                        <button class="btn seat w-28"><p>H3</p></button>
+                        <button class="btn seat w-28"><p>H4</p></button>
+                        <button class="btn seat w-28"><p>I3</p></button>
+                        <button class="btn seat w-28"><p>I4</p></button>
+                        <button class="btn seat w-28"><p>J3</p></button>
+                        <button class="btn seat w-28"><p>J4</p></button>
                     </div>
                 </div>
             </div>
             </div>
-            <!-- seat price calculation part -->
             <div class="py-4 font-inter pl-4">
                 <h1 class="text-xl pb-4 pl-3 font-bold">Select Your Seat</h1>
                 <hr>
@@ -230,20 +225,21 @@
                     <div class="bg-[#F7F8F8] mt-4 px-4 py-4 rounded-md">
                         <div class="overflow-x-auto">
                             <table class="table">
-                                <!-- head -->
                                 <thead>
-                                    <tr>
-                                        <!-- <th></th> -->
-                                        <th class="text-lg">Seat <span class="bg-[#1DD100] text-white text-lg font-bold">0</span></th>
+                                    <tr class="text-black">
+                                        <th class="text-lg ">Seat <span class="bg-[#1DD100] text-white text-lg font-bold">0</span></th>
                                         <th class="text-lg">Class</th>
                                         <th class="text-lg">Price</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!-- row 1 -->
                                     <tr>
-                                        <!-- <th>1</th> -->
-                                        <td>A1</td>
+                                        <td>C1</td>
+                                        <td>Economy</td>
+                                        <td>550</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C2</td>
                                         <td>Economy</td>
                                         <td>550</td>
                                     </tr>
@@ -317,8 +313,9 @@
     <footer class="font-inter divide-y divide-dotted mt-3 bg-[#030712] text-white p-14">
         <section class="flex justify-between mb-4">
             <div>
-                <h1 class="font-extrabold text-2xl font-raleway">S-Ticket</h1>
-                <p class="font-light">S-ticket is a digital platform to provide you <br> an amazing ticket purchasing experience.</p>
+                <h1 class="font-extrabold text-2xl font-raleway">Raf-Ticket</h1>
+                <p class="font-light">Raf-ticket  is a digital platform to make your <br> 
+                    daily commuting better.</p>
             </div>
             <div>
                 <h1>Download our app</h1>
@@ -331,7 +328,7 @@
         
         <section class="mt-4 pt-4 flex justify-between">
             <div>
-                <p class="text-xs">@all rights reserved, S-Ticket services limited 2024</p>
+                <p class="text-xs">@all rights reserved, Raf-Ticket services limited 2024</p>
             </div>
             <div class="flex justify-evenly gap-3 text-xs">
                 <div><a href="">Terms & Conditions</a></div>
