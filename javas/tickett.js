@@ -39,7 +39,6 @@ for (const button of allButton) {
 
     })
 }
-
 function totalCost(id, value) {
     const totalCost = document.getElementById(id).innerText;
     const convertedTotalCost = parseInt(totalCost);
